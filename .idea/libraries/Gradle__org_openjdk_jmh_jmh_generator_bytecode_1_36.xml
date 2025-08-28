@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.openjdk.jmh:jmh-generator-bytecode:1.36" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.openjdk.jmh" artifactId="jmh-generator-bytecode" version="1.36" baseVersion="1.36" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjdk.jmh/jmh-generator-bytecode/1.36/b8ab8b88a6b48a0cb540ede365fa84876e6608bf/jmh-generator-bytecode-1.36.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

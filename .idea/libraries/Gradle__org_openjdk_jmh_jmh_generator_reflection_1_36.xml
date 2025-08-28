@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.openjdk.jmh:jmh-generator-reflection:1.36" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.openjdk.jmh" artifactId="jmh-generator-reflection" version="1.36" baseVersion="1.36" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjdk.jmh/jmh-generator-reflection/1.36/40c9b3bb0523b58dada012987172452895f2c6cb/jmh-generator-reflection-1.36.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

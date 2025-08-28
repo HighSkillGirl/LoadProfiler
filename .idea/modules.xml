@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProxyProfiler.iml" filepath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProxyProfiler.jmh.iml" filepath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.jmh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProxyProfiler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProxyProfiler.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.test.iml" />
+    </modules>
+  </component>
+</project>

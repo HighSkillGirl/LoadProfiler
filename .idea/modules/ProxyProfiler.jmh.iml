@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ProxyProfiler:jmh" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="high.skill.girl.project" external.system.module.type="sourceSet" external.system.module.version="1.0.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/jmh" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/jmh" />
+    <orderEntry type="jdk" jdkName="21 (2)" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.openjdk.jmh:jmh-generator-annprocess:1.37" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-generator-bytecode:1.36" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-core:1.37" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-generator-asm:1.36" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-generator-reflection:1.36" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:9.0" level="project" />
+    <orderEntry type="module" module-name="ProxyProfiler.main" />
+    <orderEntry type="module" module-name="ProxyProfiler.test" production-on-test="" />
+  </component>
+</module>
