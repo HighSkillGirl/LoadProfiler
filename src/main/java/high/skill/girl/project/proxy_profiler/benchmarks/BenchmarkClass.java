@@ -1,4 +1,4 @@
-package high.skill.girl.project.proxy_profiler.main;
+package high.skill.girl.project.proxy_profiler.benchmarks;
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
@@ -15,10 +15,10 @@ public class BenchmarkClass {
 //    @OutputTimeUnit(TimeUnit.SECONDS)
 //    public void baseLine() {}
 
-    @Benchmark
-    @BenchmarkMode(Mode.AverageTime)
-    @OutputTimeUnit(TimeUnit.MILLISECONDS)
-    public int sum() {
-        return 1+1;
-    }
+//    @Benchmark
+//    @BenchmarkMode(Mode.AverageTime)
+//    @OutputTimeUnit(TimeUnit.MILLISECONDS)
+//    public int sum() {
+//        return 1+1;
+//    }
 }

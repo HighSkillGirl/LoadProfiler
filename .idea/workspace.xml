@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75cf3f1e-6a0d-44af-b0f8-6b28941c261e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ProxyProfiler.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/BenchmarkList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/CompilerHints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/BenchmarkClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/ProxyProfilerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/ProxyProfilerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_sum_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/high/skill/girl/project/proxy_profiler/main/jmh_generated/BenchmarkClass_sum_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProxyProfilerApplication.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ProxyProfilerApplication.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/high/skill/girl/project/proxy_profiler/main/BenchmarkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/high/skill/girl/project/proxy_profiler/benchmarks/BenchmarkClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/high/skill/girl/project/proxy_profiler/main/ProxyProfilerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/high/skill/girl/project/proxy_profiler/main/ProxyProfilerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +92,12 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.ProxyProfilerApplication (1)">
-    <configuration name="ProxyProfilerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyProfilerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="high.skill.girl.project.proxy_profiler.main.ProxyProfilerApplication" />
-      <module name="ProxyProfiler.main" />
+      <module name="ProxyProfiler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="high.skill.girl.project.proxy_profiler.main.*" />
+          <option name="PATTERN" value="high.skill.girl.project.proxy_profiler.main.benchmarks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,10 +107,10 @@
     </configuration>
     <configuration name="ProxyProfilerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="high.skill.girl.project.proxy_profiler.main.ProxyProfilerApplication" />
-      <module name="ProxyProfiler" />
+      <module name="ProxyProfiler.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="high.skill.girl.project.proxy_profiler.main.*" />
+          <option name="PATTERN" value="high.skill.girl.project.proxy_profiler.main.benchmarks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,5 +145,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/high/skill/girl/project/proxy_profiler/main/ProxyProfilerApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
