@@ -1,22 +1,30 @@
 package high.skill.girl.project.proxy_profiler.main;
 
-import high.skill.girl.project.proxy_profiler.proxy.CallHandler;
-import high.skill.girl.project.proxy_profiler.proxy.Women;
-
 import java.io.IOException;
-import java.lang.reflect.Proxy;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.file.Path;
 
 public class ProxyProfilerApplication {
     public static void main(String... args) throws IOException {
 
-        Women me = new Women(26);
-        CallHandler callHandler = new CallHandler(me);
-        Class[] interfaces = new Class[]{Comparable.class};
-        Object proxy = Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(), interfaces, callHandler);
+        Path jarPath = Path.of("load/my-test-project.jar");
+        Path jarPath2 = Path.of("load/my-test-project2.jar");
+        URL[] urls = { jarPath.toUri().toURL(), jarPath2.toUri().toURL() }; // отрабатывает первый найденный по имени класс
 
-        Comparable<Women> c = (Comparable<Women>) proxy; // unchecked warning
-        System.out.println(c.compareTo(new Women(45)));
+        try (URLClassLoader loader = new URLClassLoader(urls)) {
+            Class<?> clazz = loader.loadClass("Main");
+            Object instance = clazz.getDeclaredConstructor().newInstance();
+            Method method = clazz.getMethod("main", String[].class);
 
-        //org.openjdk.jmh.Main.main(args); // запуск раннера - запускает сгенерированные классы с бенчмарками
+            String[] loadedArgs = new String[]{};
+            method.invoke(instance, (Object) loadedArgs);
+        } catch (ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InstantiationException |
+                 InvocationTargetException e) {
+            throw new RuntimeException(e);
+        }
     }
+
 }

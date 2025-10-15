@@ -1,6 +1,7 @@
 plugins {
     java
     id("me.champeau.jmh") version "0.7.2"
+    id("net.bytebuddy.byte-buddy-gradle-plugin") version "1.17.8"
 }
 
 group = "high.skill.girl.project"
