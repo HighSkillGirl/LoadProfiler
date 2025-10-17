@@ -32,8 +32,8 @@ import org.openjdk.jmh.results.ScalarResult;
 import org.openjdk.jmh.results.AggregationPolicy;
 import org.openjdk.jmh.runner.FailureAssistException;
 
-import high.skill.girl.project.load_profiler.benchmarks.jmh_generated.MyTestProject2Benchmarks_jmhType;
-public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
+import high.skill.girl.project.load_profiler.benchmarks.jmh_generated.ActivityJournalBenchmarks_jmhType;
+public final class ActivityJournalBenchmarks_howLongDoesItTake_jmhTest {
 
     byte p000, p001, p002, p003, p004, p005, p006, p007, p008, p009, p010, p011, p012, p013, p014, p015;
     byte p016, p017, p018, p019, p020, p021, p022, p023, p024, p025, p026, p027, p028, p029, p030, p031;
@@ -68,25 +68,25 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0 = _jmh_tryInit_f_mytestproject2benchmarks0_0(control);
+            ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0 = _jmh_tryInit_f_activityjournalbenchmarks0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                l_activityjournalbenchmarks0_0.howLongDoesItTake();
                 if (control.shouldYield) Thread.yield();
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            howLongDoesItTake_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_mytestproject2benchmarks0_0);
+            howLongDoesItTake_thrpt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_activityjournalbenchmarks0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                    l_activityjournalbenchmarks0_0.howLongDoesItTake();
                     if (control.shouldYield) Thread.yield();
                     res.allOps++;
                 }
@@ -96,7 +96,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                f_mytestproject2benchmarks0_0 = null;
+                f_activityjournalbenchmarks0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -113,12 +113,12 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void howLongDoesItTake_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0) throws Throwable {
+    public static void howLongDoesItTake_thrpt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_mytestproject2benchmarks0_0.howLongDoesItTake();
+            l_activityjournalbenchmarks0_0.howLongDoesItTake();
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -137,25 +137,25 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0 = _jmh_tryInit_f_mytestproject2benchmarks0_0(control);
+            ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0 = _jmh_tryInit_f_activityjournalbenchmarks0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                l_activityjournalbenchmarks0_0.howLongDoesItTake();
                 if (control.shouldYield) Thread.yield();
                 res.allOps++;
             }
 
             notifyControl.startMeasurement = true;
-            howLongDoesItTake_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_mytestproject2benchmarks0_0);
+            howLongDoesItTake_avgt_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, l_activityjournalbenchmarks0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                    l_activityjournalbenchmarks0_0.howLongDoesItTake();
                     if (control.shouldYield) Thread.yield();
                     res.allOps++;
                 }
@@ -165,7 +165,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                f_mytestproject2benchmarks0_0 = null;
+                f_activityjournalbenchmarks0_0 = null;
             }
             res.allOps += res.measuredOps;
             int batchSize = iterationParams.getBatchSize();
@@ -182,12 +182,12 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void howLongDoesItTake_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0) throws Throwable {
+    public static void howLongDoesItTake_avgt_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_mytestproject2benchmarks0_0.howLongDoesItTake();
+            l_activityjournalbenchmarks0_0.howLongDoesItTake();
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -206,14 +206,14 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
         }
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
-            MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0 = _jmh_tryInit_f_mytestproject2benchmarks0_0(control);
+            ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0 = _jmh_tryInit_f_activityjournalbenchmarks0_0(control);
 
             control.preSetup();
 
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                l_activityjournalbenchmarks0_0.howLongDoesItTake();
                 if (control.shouldYield) Thread.yield();
                 res.allOps++;
             }
@@ -223,12 +223,12 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             int batchSize = iterationParams.getBatchSize();
             int opsPerInv = benchmarkParams.getOpsPerInvocation();
             SampleBuffer buffer = new SampleBuffer();
-            howLongDoesItTake_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_mytestproject2benchmarks0_0);
+            howLongDoesItTake_sample_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, buffer, targetSamples, opsPerInv, batchSize, l_activityjournalbenchmarks0_0);
             notifyControl.stopMeasurement = true;
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                    l_activityjournalbenchmarks0_0.howLongDoesItTake();
                     if (control.shouldYield) Thread.yield();
                     res.allOps++;
                 }
@@ -238,7 +238,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                f_mytestproject2benchmarks0_0 = null;
+                f_activityjournalbenchmarks0_0 = null;
             }
             res.allOps += res.measuredOps * batchSize;
             res.allOps *= opsPerInv;
@@ -252,7 +252,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void howLongDoesItTake_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0) throws Throwable {
+    public static void howLongDoesItTake_sample_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0) throws Throwable {
         long realTime = 0;
         long operations = 0;
         int rnd = (int)System.nanoTime();
@@ -267,7 +267,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                l_mytestproject2benchmarks0_0.howLongDoesItTake();
+                l_activityjournalbenchmarks0_0.howLongDoesItTake();
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -294,7 +294,7 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             this.blackhole = new Blackhole("Today's password is swordfish. I understand instantiating Blackholes directly is dangerous.");
         }
         if (threadParams.getSubgroupIndex() == 0) {
-            MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0 = _jmh_tryInit_f_mytestproject2benchmarks0_0(control);
+            ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0 = _jmh_tryInit_f_activityjournalbenchmarks0_0(control);
 
             control.preSetup();
 
@@ -302,11 +302,11 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             notifyControl.startMeasurement = true;
             RawResults res = new RawResults();
             int batchSize = iterationParams.getBatchSize();
-            howLongDoesItTake_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_mytestproject2benchmarks0_0);
+            howLongDoesItTake_ss_jmhStub(control, res, benchmarkParams, iterationParams, threadParams, blackhole, notifyControl, startRndMask, batchSize, l_activityjournalbenchmarks0_0);
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                f_mytestproject2benchmarks0_0 = null;
+                f_activityjournalbenchmarks0_0 = null;
             }
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
             long totalOps = opsPerInv;
@@ -318,26 +318,26 @@ public final class MyTestProject2Benchmarks_howLongDoesItTake_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public static void howLongDoesItTake_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, MyTestProject2Benchmarks_jmhType l_mytestproject2benchmarks0_0) throws Throwable {
+    public static void howLongDoesItTake_ss_jmhStub(InfraControl control, RawResults result, BenchmarkParams benchmarkParams, IterationParams iterationParams, ThreadParams threadParams, Blackhole blackhole, Control notifyControl, int startRndMask, int batchSize, ActivityJournalBenchmarks_jmhType l_activityjournalbenchmarks0_0) throws Throwable {
         long realTime = 0;
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            l_mytestproject2benchmarks0_0.howLongDoesItTake();
+            l_activityjournalbenchmarks0_0.howLongDoesItTake();
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;
     }
 
     
-    MyTestProject2Benchmarks_jmhType f_mytestproject2benchmarks0_0;
+    ActivityJournalBenchmarks_jmhType f_activityjournalbenchmarks0_0;
     
-    MyTestProject2Benchmarks_jmhType _jmh_tryInit_f_mytestproject2benchmarks0_0(InfraControl control) throws Throwable {
+    ActivityJournalBenchmarks_jmhType _jmh_tryInit_f_activityjournalbenchmarks0_0(InfraControl control) throws Throwable {
         if (control.isFailing) throw new FailureAssistException();
-        MyTestProject2Benchmarks_jmhType val = f_mytestproject2benchmarks0_0;
+        ActivityJournalBenchmarks_jmhType val = f_activityjournalbenchmarks0_0;
         if (val == null) {
-            val = new MyTestProject2Benchmarks_jmhType();
-            f_mytestproject2benchmarks0_0 = val;
+            val = new ActivityJournalBenchmarks_jmhType();
+            f_activityjournalbenchmarks0_0 = val;
         }
         return val;
     }
